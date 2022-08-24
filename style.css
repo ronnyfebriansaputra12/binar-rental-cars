@@ -111,17 +111,7 @@ h2 {
             filter: none;
   }
   
-  @media screen and ( min-width: 768px ) {
-    .carousel-cell {
-      height: 400px;
-    }
-  }
-  
-  @media screen and ( min-width: 960px ) {
-    .carousel-cell {
-      width: 60%;
-    }
-  }
+
   
   /* buttons, no circle */
   .flickity-prev-next-button {
@@ -148,3 +138,73 @@ h2 {
   .flickity-prev-next-button:disabled {
     display: none;
   }
+
+  /* @media ( min-width: 390px ) {
+    img.hero {
+      width: 380px;
+    }
+  }
+
+  @media ( min-width: 390px ) {
+    img.img-service {
+      width: 380px;
+    }
+  } */
+
+  @media screen and ( min-width: 768px ) {
+    .carousel-cell {
+      height: 400px;
+    }
+  }
+  
+  @media screen and ( min-width: 960px ) {
+    .carousel-cell {
+      width: 60%;
+    }
+  }
+
+
+  @media (max-width: 576px) {
+    .hero-desc.container-md {
+      padding-top: 38px;
+    }
+    img.mobil {
+      width: 370px;
+    }
+  
+    img.service {
+      width: 280px;
+      padding-bottom: 50px;
+      padding-left:20px;
+      
+    }
+  }
+
+  @media (max-width: 576px){
+    .accordion-item{
+      margin-bottom:20px;
+    }
+  }
+
+  @media (max-width: 576px){
+    .card{
+      width:100%;
+    }
+  }
+
+  @media (max-width: 576px){
+    .mk{
+      margin-top: -10rem;
+    }
+    nav{
+      width:100%;
+    }
+  }
+
+  @media (max-width: 576px){
+    div.offcanvas-body{
+      width: 50%;
+    }
+  }
+  
+
